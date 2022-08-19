@@ -132,9 +132,11 @@ ffmpeg -framerate 30 -i .\input\input_%03d.jpg -c:v h264_nvenc -preset p6 -profi
 ```
 
 - More more output quality    
+```
 Change your gpu device
+```
 
-- JPEG Decord with GPU
+- JPEG decode with GPU
 ```
 ffmpeg -framerate 30 -vsync 0 -hwaccel cuvid -c:v mjpeg_cuvid -i .\input\input_%03d.jpg -c:v h264_nvenc -preset p6 -profile:v high -tune hq -rc-lookahead 8 -bf 2 -rc vbr -cq 26 -b:v 0 -maxrate 120M -bufsize 240M -shortest -movflags +faststart output.mp4
 ```
