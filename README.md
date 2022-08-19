@@ -1,10 +1,11 @@
 # FFMPEG with CUDA
 
-original : https://www.gyan.dev/ffmpeg/builds/#release-builds
-
-Tested :  MS WIndows 10 Pro, NVIDIA-SMI 516.94,  Driver Version: 516.94, CUDA Version: 11.7
-
-By Kiok Ahn (kiokahn@gazzi.ai, kiokahn76@gmail.com)
+original : https://www.gyan.dev/ffmpeg/builds/#release-builds     
+https://file-examples.com/index.php/sample-video-files/sample-mp4-files/      
+     
+Tested :  MS WIndows 10 Pro, NVIDIA-SMI 516.94,  Driver Version: 516.94, CUDA Version: 11.7     
+     
+By Kiok Ahn (kiokahn@gazzi.ai, kiokahn76@gmail.com)     
 
 ## Check
 
