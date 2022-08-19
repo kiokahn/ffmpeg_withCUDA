@@ -1,0 +1,1 @@
+ffmpeg -i file_example_MP4_1920_18MG.mp4 .\out\input_%03d.jpg
