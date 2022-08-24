@@ -142,3 +142,7 @@ Change your gpu device
 ffmpeg -framerate 30 -vsync 0 -hwaccel cuvid -c:v mjpeg_cuvid -i .\input\input_%03d.jpg -c:v h264_nvenc -preset p6 -profile:v high -tune hq -rc-lookahead 8 -bf 2 -rc vbr -cq 26 -b:v 0 -maxrate 120M -bufsize 240M -shortest -movflags +faststart output.mp4
 ```
 
+- MJPEG decode with GPU
+```
+ffmpeg -framerate 30 -vsync 0 -hwaccel cuvid -c:v mjpeg_cuvid -i sample_1920x1080.mjpeg -c:v h264_nvenc -preset p6 -profile:v high -tune hq -rc-lookahead 8 -bf 2 -rc vbr -cq 26 -b:v 0 -maxrate 120M -bufsize 240M -shortest -movflags +faststart output.mp4
+```
